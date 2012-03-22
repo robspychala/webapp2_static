@@ -2,7 +2,8 @@
 
 Simple handler to Serve static files on non Google App Engine (GAE) webapp2 environments
 
-```import webapp2_static
+```python
+import webapp2_static
 
 app = webapp2.WSGIApplication([
     (r'/', example.IndexHandler),
