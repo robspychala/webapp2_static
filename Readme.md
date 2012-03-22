@@ -13,7 +13,7 @@ app = webapp2.WSGIApplication([
 
 # Defaults
 
-if the ```webapp2_static.static_file_path``` configuration option is omitted then the files are assumed to be located under the ```./static``` directory.
+If the ```webapp2_static.static_file_path``` configuration option is omitted then the files are assumed to be located under the ```./static``` directory.
 
 # Installation
 
