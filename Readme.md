@@ -8,7 +8,8 @@ import webapp2_static
 app = webapp2.WSGIApplication([
     (r'/', example.IndexHandler),
     (r'/static/(.+)', webapp2_static.StaticFileHandler)
-], config = {'webapp2_static.static_file_path': './app/static'})```
+], config = {'webapp2_static.static_file_path': './app/static'})
+```
 
 ## Defaults
 
